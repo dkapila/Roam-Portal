@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"]
+  },
+  "include": [
+    "*.ts",
+    "src/**/*.ts",
+    "src/**/*.d.ts", "src/dataPreparation/dataRequestHelper.js", "src/dataPreparation/dataRequestHelper.js", "src/api/roamPortalApi.js", "src/api/roamPortalApi.js",
+  ]
+}

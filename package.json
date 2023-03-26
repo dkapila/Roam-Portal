@@ -1,0 +1,51 @@
+{
+  "name": "roam-portal",
+  "description": "A search engine and data visualization extension for Roam Research",
+  "version": "9.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier --write './**/*.{js,vue,ts,css,md,json}' --config ./.prettierrc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "3d-force-graph": "^1.70.17",
+    "chart.js": "^2.9.3",
+    "d3": "^7.7.0",
+    "d3-color": "^3.1.0",
+    "force-graph": "^1.35.0",
+    "globe.gl": "^2.26.10",
+    "markdown-it": "^12.0.4",
+    "three": "^0.147.0",
+    "three-spritetext": "^1.6.5",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.7.8",
+    "vue-chartjs": "^3.5.1",
+    "vue-class-component": "^7.2.6",
+    "vue-fuse": "^2.2.1",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-property-decorator": "^9.1.2",
+    "vue-select": "^3.10.8",
+    "vue-text-highlight": "^2.0.10",
+    "vue-tweet-embed": "https://github.com/dkapila/vue-tweet-embed/tarball/master",
+    "vuewordcloud": "17.12.23",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier-vue": "^4.2.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.5",
+    "vite": "^2.5.4",
+    "vite-plugin-vue2": "1.9.0",
+    "vue-template-compiler": "^2.7.14",
+    "vue-tsc": "^1.2.0"
+  }
+}
