@@ -2,11 +2,12 @@
 
 Roam Portal is a search engine designed to help you explore your data visually.
 
-![](./assets/roam-portal.jpg)
+![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FDharam%2FqDMR9GQLKy.jpg?alt=media&token=015ac963-feb1-42c5-905f-3eda58da0068)
 
 ## Getting Started
 
 To start using this extension, simply click on the Roam Portal icon located in the top right corner of the toolbar.
+For a video tutorial on how to use Roam Portal, [click here](https://www.loom.com/share/717fa8b788844c23aa08dd7d448bf0bf).
 
 ## Features
 

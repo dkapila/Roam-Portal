@@ -128,7 +128,7 @@
         <div class="ras-home-favorites-list-instructions">
           <div class="ras-home-header ras-section-label">Tips</div>
           <div class="ras-last-update-date-text">
-            Last Updated on 26th March, 2023
+            Last Updated on 3rd April, 2023
           </div>
         </div>
         <div

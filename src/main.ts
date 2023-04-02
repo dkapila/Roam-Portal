@@ -90,13 +90,13 @@ const addPortalButtonInToolbar = () => {
   );
 };
 
-const initializeApp = () => {
+const initializeApp = ({ extensionAPI }) => {
   if ((window as any).roamPortal) {
     return;
   }
 
-  if ((window as any).roamAlphaAPI) {
-    (window as any).roamAlphaAPI.ui.commandPalette.addCommand({
+  if (extensionAPI) {
+    extensionAPI.ui.commandPalette.addCommand({
       label: "Toggle Roam Portal",
       callback: () => (window as any).roamPortal.toggleShow(),
     });
@@ -140,10 +140,6 @@ const unInitializeApp = () => {
 
   removePortalButtonFromToolbar();
 
-  (window as any).roamAlphaAPI.ui.commandPalette.removeCommand({
-    label: "Toggle Roam Portal",
-  });
-
   let roamPortalContainer = document.getElementById("ras-roam-portal");
 
   if (roamPortalContainer) {
@@ -164,7 +160,5 @@ const unInitializeApp = () => {
 
 export default {
   onload: initializeApp,
-  onunload: () => {
-    unInitializeApp();
-  },
+  onunload: unInitializeApp,
 };
