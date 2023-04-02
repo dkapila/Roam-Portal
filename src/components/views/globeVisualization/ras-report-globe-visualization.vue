@@ -39,11 +39,11 @@
 
     <transition name="fade">
       <div class="ras-globe-dropdown-info" v-if="photonSearchDropdownShown">
-        <a target="Blank" href="https://github.com/komoot/photon"
+        <a target="_blank" href="https://github.com/komoot/photon"
           >photon software</a
         >
         is open source and licensed under&nbsp;<a
-          target="Blank"
+          target="_blank"
           href="http://www.apache.org/licenses/LICENSE-2.0.txt"
           >Apache License, Version 2.0</a
         >
@@ -73,12 +73,12 @@
           </ol>
           <div class="ras-globe-dropdown-info-citation">
             City list is provided by
-            <a target="Blank" href="https://simplemaps.com/data/world-cities"
+            <a target="_blank" href="https://simplemaps.com/data/world-cities"
               >simplemaps</a
             >
             under a
             <a
-              target="Blank"
+              target="_blank"
               href="https://creativecommons.org/licenses/by/4.0/"
               >Creative Commons Attribution 4.0 License</a
             >.

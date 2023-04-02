@@ -1,14 +1,6 @@
 export default {
   methods: {
     roamOpenSidebar(uid: string) {
-      if (
-        !("roamAlphaAPI" in window) &&
-        (window as any).roamAlphaAPI.ui &&
-        (window as any).roamAlphaAPI.ui.rightSidebar
-      ) {
-        return null;
-      }
-
       let type = "block";
       (window as any).roamAlphaAPI.ui.rightSidebar.open();
       (window as any).roamAlphaAPI.ui.rightSidebar.addWindow({

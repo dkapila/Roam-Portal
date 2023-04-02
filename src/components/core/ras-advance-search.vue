@@ -102,7 +102,7 @@
         <a
           class="ras-regex-tutorial-link"
           href="https://distroharvix.medium.com/part-9-a-complete-beginners-guide-to-computer-programming-with-clojure-regular-expressions-29a7d18730a9"
-          target="_black"
+          target="_blank"
           >(?)</a
         ></label
       >
