@@ -152,7 +152,7 @@
         <div
           class="ras-home-favorites-list-instructions ras-home-sub-instruction"
         >
-          4. Thank you so much trying this extension :) If you wish to support my work, 
+          4. Thank you so much for trying this extension :) If you wish to support my work, 
           please consider buying me a coffee:
           <a target="_blank" href="https://buymeacoffee.com/dharam">https://buymeacoffee.com/dharam</a> 💕
         </div>
@@ -406,21 +406,21 @@ export default {
       let frequentUsernames = {
         text: "Most frequent usernames mentioned last year",
         tweetDisplayMode: 1,
-        from: "1 January, 2020",
-        to: "31 December 2020, 11:59pm",
+        from: "1 January, 2022",
+        to: "31 December 2022, 11:59pm",
       };
 
       let recent = { text: "Recently added tweets", from: "2 week ago" };
 
       let lastYear = {
         text: "Tweets from this year",
-        from: "1 January, 2021",
+        from: "1 January, 2023",
       };
 
       let thisYear = {
         text: "Tweets from last year",
-        from: "1 January, 2020",
-        to: "31 December 2020, 11:59pm",
+        from: "1 January, 2022",
+        to: "31 December 2022, 11:59pm",
       };
 
       return [clearSearch, frequentUsernames, recent, lastYear, thisYear];

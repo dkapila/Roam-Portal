@@ -420,7 +420,6 @@ export default {
   padding-left: 15px;
   display: flex;
   margin-top: 4px;
-  align-items: flex-start;
 }
 
 label.ras-search-label {
